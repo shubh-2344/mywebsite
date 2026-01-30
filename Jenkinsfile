@@ -1,14 +1,11 @@
 pipeline {
-<<<<<<< HEAD
      agent any
 
     environment {
         IMAGE_NAME = "static-website"
         DOCKERHUB_USER = "shubhamtakalikar1@gmail.com"
     }
-=======
     agent any
->>>>>>> origin/main
 
     stages {
         stage('Checkout Code') {
