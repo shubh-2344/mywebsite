@@ -1,10 +1,4 @@
 pipeline {
-     agent any
-
-    environment {
-        IMAGE_NAME = "static-website"
-        DOCKERHUB_USER = "shubhamtakalikar1@gmail.com"
-    }
     agent any
 
     stages {
