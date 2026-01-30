@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'docker-server' }
+    agent any
 
     environment {
         IMAGE_NAME = "static-website"
